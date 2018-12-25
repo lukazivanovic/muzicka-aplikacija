@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  color: #333;
+  background-color: #f0f0f0;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header,
+footer {
+  color: #f0f0f0;
+  background-color: #333;
+  overflow: auto;
+  /* da margine ne bi probijale */
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+main {
+  flex: 1;
+}
+
+.valid {
+    border: 2px solid green;
+}
+  
+.invalid {
+    border: 2px solid red;
+}
+  

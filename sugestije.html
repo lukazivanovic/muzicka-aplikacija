@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sugestije pesama</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navigacija.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Muzicka aplikacija</h1>
+    </div>
+    <nav>
+      <a href="index.html">Tekst Pesme</a>
+      <a href="sugestije.html">Pesma</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Pronadji pesmu</h1>
+
+    <form id="forma">
+      <input id="fraza" placeholder="Unesite trazeni pojam:">
+      <button id="dugme">Potrazi</button>
+    </form>
+
+    <img id="loader" src="slike/loader.gif" alt="loading..." style="display: none">
+
+    <div id="rezultat"></div>
+
+  </main>
+
+  <footer class="container">
+    <p>&copy; 2018</p>
+  </footer>
+
+  <script src="js/sugestije.js"></script>
+</body>
+
+</html>
