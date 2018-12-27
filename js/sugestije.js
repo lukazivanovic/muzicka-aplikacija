@@ -26,9 +26,7 @@ function ucitatiSugestije(e) {
               <a href="${pesma.link}" title="Deezer" target="_blank"><img src="slike/deezer-logo.svg" width="50" alt="Deezer" title="Pusti na Deezeru"></a>
             </div>
             <p>Trajanje: ${pesma.duration}s</p>
-            <p>Eksplicitan sadrzaj: ${pesma.explicit_lyrics ? "da" : "ne"}</p>
-            <p><a href="http://www.songsterr.com/a/wa/song?id={${pesma.id}}" target="_blank">Note</a></p>
-            <iframe src="https://api.lyrics.ovh/v1/${pesma.artist.name}/${pesma.title}"></iframe>
+            <p>Eksplicitan sadrzaj: ${pesma.explicit_lyrics ? "da &#9888;" : "ne"}</p>
           </div>
         `
       }
