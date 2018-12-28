@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ucitavanje podataka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">M<span>A</span> </span></div>
+      <a href="index.html">Pronadji tekst</a>
+      <a href="sugestije.html">Pronadji pesmu</a>
+      <a href="video.html">Pronadji video</a>
+      <a href="akordi.html">Pronadji akorde</a>
+    </nav>
+  </header>
+
+  <div class="background"></div>
+
+  <div class="wrapper">
+    <h1>Pronadji akorde</h1>
+
+    <form id="forma-za-tekstove">
+      <div class="izvodjac-container">
+        <input id="izvodjac" placeholder="Naziv izvodjaca" required>
+        <label for="izvodjac">Naziv izvodjaca</label>
+      </div>
+
+      <div class="pesma-container">
+        <input id="pesma" placeholder="Naziv pesme" required>
+        <label for="pesma">Naziv pesme</label>
+      </div>
+
+      <div class="button-container">
+        <button id="potrazi">Pretrazi</button>
+      </div>
+    </form>
+
+    <div class="rezultat-container">
+      <h2 id="naslov"></h2>
+      <p id="rezultat"></p>
+      <iframe src="http://www.songsterr.com/a/wa/bestMatchForQueryString?s=Fade to black&a=Metallica"></iframe>
+    </div>
+  </div>
+
+
+
+  <script src="js/akordi.js"></script>
+</body>
+
+</html>
