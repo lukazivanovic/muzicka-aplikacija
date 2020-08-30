@@ -2,6 +2,8 @@
 
 Javascript aplikacija koja koristi javni [Lyrics API](https://lyrics.ovh/) za pretragu pesama.
 
+![Alt text](Screenshot-Sugestije-pesama.png?raw=true "sugestije pesama")
+
 ## TODO
 
 - ponovo srediti dizajn (za navigaciju)
